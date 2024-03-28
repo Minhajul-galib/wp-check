@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-div{
+    padding: 10px;
+    background-color: white !important;
+}
+.head-td{
+    background-color: #7486ff !important;
+    color: white!important;
+    font-weight: 500;
+}
+.head-second-td{
+    background-color: #9059ff !important;
+    color: white!important;
+    font-weight: 500; 
+}
+.head-third-td{
+    background-color: #707070 !important;
+    color: white!important;
+    font-weight: 500; 
+}
+.head-fourth-td{
+    background-color: #50d350 !important;
+    font-weight: 500; 
+}
+table{
+    margin-bottom: 0px !important;
+}
+.remove-Ls-border{
+    border-left: none !important;
+}
+.remove-Rs-border{
+    border-right: none !important;
+}
+.remove-Tp-border{
+    border-right: none !important;
+}
+.remove-Bm-border{
+    border-right: none !important;
+}
+.inner-table{
+    padding: 0px !important;
+}
+.empty-td-bg{
+    
+    box-shadow: inset 0px 0px 5px #c2c2c2 !important;
+}
+
+.sub-td-bg{
+    background-color: #FFFF00 !important;
+}
+header {
+    box-shadow: 0px 1px 1px #323232bd;
+    padding: 10px 10px;
+  
+}
+.dataTable-class{
+    width: 100% !important;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px !important;
+}
+.menu li {
+    list-style: none;
+}
+.cus-button, .menu ul li a{
+    background-color: #08457b;
+    padding: 6px 18px 9px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px #3b3b3b;
+    border: none;
+}
+.cus-button:hover, .menu ul li a:hover{
+    background-color: white;
+    color: #08457b;
+}
+.table-div td{
+    padding: 0px !important;
+}
+
+
+.cus-div{
+    box-shadow: 0px 0px 4px 0px #10101038;
+    border: 1px solid #f2f2f2;
+}
+.home-banner {
+    min-height: 94vh;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-overly {
+    min-height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, #2D08AC 0%, #8829F266 100%);
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+.banner-content h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    transform: translate(25% 25%);
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+}
+.custom-width-1 {
+    width: 10px; /* Adjust the width as needed */
+}
